@@ -8,7 +8,7 @@
 
     curl(['app']).then(
         function (app) {
-            uiapp();
+            app();
         },
         function (err) {
             console.log("FAILED TO LOAD!", err);
