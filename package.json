@@ -1,0 +1,19 @@
+{
+  "name": "curl-demo",
+  "version": "0.0.1",
+  "description": "demo for Fedevegili",
+  "main": "run.js",
+  "scripts": {
+    "cram": "node node_modules/cram/cram.js app.js -l bower_components/curl/dist/curl-with-js-and-domReady/curl.js -o run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gogamoga/curl-demo.git"
+  },
+  "author": "gogamoga",
+  "license": "MIT",
+  "dependencies": {
+    "hogan.js": "~2.0.0",
+    "cram": "~0.8.0"
+  }
+}
