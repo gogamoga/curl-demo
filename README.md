@@ -3,7 +3,9 @@ curl-demo (or something like that)
 
 ### Install
 `git clone https://github.com/gogamoga/curl-demo`
+
 `npm install`
+
 `bower install`
 
 ### Cram it
