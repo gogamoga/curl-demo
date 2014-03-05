@@ -4,7 +4,7 @@
   "description": "demo for Fedevegili",
   "main": "run.js",
   "scripts": {
-    "cram": "node node_modules/cram/cram.js app.js -l bower_components/curl/dist/curl-with-js-and-domReady/curl.js -o run.js"
+    "cram": "node node_modules/cram/cram.js run.js -l bower_components/curl/dist/curl-with-js-and-domReady/curl.js -o run.cram.js"
   },
   "repository": {
     "type": "git",
