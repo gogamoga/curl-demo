@@ -2,12 +2,12 @@
     curl.config({
         packages: [
             { name: 'hogan', location: './node_modules/hogan.js/web/builds/2.0.0', main: 'hogan-2.0.0.amd.js' },
-            { name: 'uiapp', location: './', main: 'uiapp.js' }
+            { name: 'app', location: './', main: 'app.js' }
         ]
     });
 
-    curl(['uiapp']).then(
-        function (uiapp) {
+    curl(['app']).then(
+        function (app) {
             uiapp();
         },
         function (err) {
